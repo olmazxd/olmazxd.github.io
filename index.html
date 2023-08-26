@@ -6,7 +6,7 @@
     <title>Goku</title>
 <script language="Javascript">var msg1 = " Goku - Olmaz#0 -";var speed=100;function ScrollTitle() {document.title=msg1;msg1=msg1.substring(1,msg1.length)+msg1.charAt(0);setTimeout("ScrollTitle()",speed);}ScrollTitle();</script>
   <meta name="author" content="Olmaz#0">
-  <meta name="description" content="3234242334/Y(234/Y)^23H^4R23490(=/G234HY^)(HFD)234=^TGD(=/Y'234232342365()D()'G423DF(5)=4G'F/8987()=Y')">
+  <meta name="description" content="lmao!thatsinteresting+%^%/f%'&/^as4dg/'()+(=&'+()'456&/+)='asd/(3+)3=?(/'^)=17(&/+(&')+(/!/789('^)2=?(+)'&/()2'+&)'^)=/'+()">
   <link rel="icon" href="img/favicon.png" type=".png">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Righteous|Ubuntu+Mono&display=swap" rel="stylesheet">
@@ -17,24 +17,86 @@
   <div id="particles-js"></div>
   <div class="container">
     <div class="center">
-	
+      <style>
+      .ip-address {
+        font-size: 12px;
+        font-weight: bold;
+        background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        -webkit-background-clip: text;
+        color: transparent;
+        display: inline-block;
+        margin-top: 1px;
+      }
+</style>
       <div class="row d-flex flex-wrap align-items-center">
         <div class="col-md-5">
           <img class="image img-fluid" src="img/yavascalorrospucocugu.gif" alt="Goku">
         </div>								
         <div class="col-md">
           <p class="header1">Goku</p>
-          <p class="header3"> Interesting profilee</p>
-		  <p class="header2">for something</p>
+          <p class="header3"> Interesting profile</p>
+          <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .digital-clock {
+      font-size: 24px;
+      font-weight: bold;
+      color: rgb(201, 170, 33); /* Saatin rengi */
+      margin-bottom: 0.3; /* 1 satır boşluk bırakma */
+    }
+
+  </style>
+</head>
+<body>
+  <div class="digital-clock" id="clock"></div>
+  <script>
+    function updateDigitalClock() {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      const seconds = now.getSeconds().toString().padStart(2, '0');
+      const timeString = hours + ':' + minutes + ':' + seconds;
+      document.getElementById('clock').textContent = timeString;
+    }
+
+    setInterval(updateDigitalClock, 1000);
+    updateDigitalClock();
+    updateIPAddress();
+  </script>
+		  <p class="header2">for something:</p>
+</body>
+</html>
           <a class="link1" href="https://github.com/Gokureal" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fab fa-Github"></i></a>
           <a class="link1" href="https://discord.com/users/216367803647787013" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Discord"><i class="fab fa-Discord"></i></a>
-		  
+          <p class="header2"></p>
+          <div class="ip-address" id="ip"></div>
+          <p class="header2"></p>
+          <p><iframe src="https://olmazs.github.io/sex.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe></p>
 		</div>
-      </div>
-<p><iframe src="https://olmazs.github.io/sex.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe></p>
+        </script>
+      </body>
+      </html>
     </div>
   </div>
-  
+  <script>
+    function updateIPAddress() {
+      fetch('https://api.ipify.org?format=json')
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById('ip').innerHTML = 'btw is that your ip? ' + data.ip;
+        })
+        .catch(error => {
+          console.error('IP adresi alınırken bir hata oluştu:', error);
+          document.getElementById('ip').textContent = 'IP adresi alınırken bir hata oluştu';
+        });
+    }
+
+    updateIPAddress();
+  </script>
+</body>
+</html>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
